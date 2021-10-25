@@ -1,0 +1,10 @@
+.features-div{
+    background-image: linear-gradient(rgba(184, 181, 255, 0.35), rgba(184, 181, 255, 0.35)),  url(../../images/news-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.feature-icon{
+    font-size: 40px;
+    color: #7868E6;
+}

@@ -1,0 +1,10 @@
+.custom-card img{
+    height: 300px;
+}
+.doctors-social-icon{
+    font-size: 20px;
+    color: #B8B5FF;
+}
+.doctors-social-icon:hover{
+    color: #7868E6;
+}

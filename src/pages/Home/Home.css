@@ -1,0 +1,30 @@
+.family-img{
+    height: 400px;
+    /* width: 100%; */
+}
+.family-text{
+    font-size: 40px;
+}
+.card-div{
+    transition: 0.2s;
+}
+.card-div:hover{
+    background-color: #B8B5FF;
+}
+.service-btn{
+    background-color: #7868E6;
+    color: #fff;
+    border: 1px solid #B8B5FF;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+.service-btn:hover{
+    background-color: #0e0c1a;
+}
+.link-btn{
+    text-decoration: none;
+}
+.team-icon{
+    font-size: 20px;
+    color: #B8B5FF;
+}

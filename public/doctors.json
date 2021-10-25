@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. John Smith",
+      "image": "https://images.pexels.com/photos/4173239/pexels-photo-4173239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "designation": "Allergists/Immunologists"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Mahian Mahin",
+      "image": "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "designation": "Anesthesiologists"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Forhad ",
+      "image": "https://images.pexels.com/photos/5327921/pexels-photo-5327921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "designation": "Cardiologists"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Apon Chowdhury",
+      "image": "https://images.pexels.com/photos/8442537/pexels-photo-8442537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "designation": "Family Physicians"
+    },
+    {
+      "id": 5,
+      "name": "Humburto Chavez",
+      "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+      "designation": "Hematologists"
+    },
+    {
+      "id": 6,
+      "name": "Bruno Rodrigeuz",
+      "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80",
+      "designation": "Neurologists"
+    },
+    {
+      "id": 7,
+      "name": "Dr. Sara",
+      "image": "https://images.pexels.com/photos/4225880/pexels-photo-4225880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "designation": "Oncologists"
+    },
+    {
+      "id": 8,
+      "name": "Mushfika Chowdhury",
+      "image": "https://images.pexels.com/photos/4586993/pexels-photo-4586993.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "designation": "Pathologists"
+    },
+    {
+      "id": 9,
+      "name": "Kashfia Naznin",
+      "image": "https://images.pexels.com/photos/4167543/pexels-photo-4167543.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "designation": "Pediatricians"
+    },
+    {
+      "id": 10,
+      "name": "Dr Abu Sayeed",
+      "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "designation": "Physiatrists"
+    },
+    {
+      "id": 11,
+      "name": "Parvin Sultana",
+      "image": "https://images.unsplash.com/photo-1614608682468-f0e22796f633?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "designation": "General Surgeons"
+    },
+    {
+      "id": 12,
+      "name": "Sakib Mahmud",
+      "image": "https://images.unsplash.com/photo-1609743522471-83c84ce23e32?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      "designation": "Urologists"
+    }
+    
+]
