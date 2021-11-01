@@ -5,7 +5,6 @@ import {getAuth, GoogleAuthProvider,FacebookAuthProvider, GithubAuthProvider, si
 
 // initialize firebase authentication.
 initializeAuthentication()
-
   const auth = getAuth();
   // auth provider object for google, github and facebook.
   const googleProvider = new GoogleAuthProvider();
@@ -28,7 +27,6 @@ initializeAuthentication()
   const handleGoogleSignIn = () => {
     setIsLoading(true);
     return signInWithPopup(auth, googleProvider)
-      
   };
 
   // Github signIn handler function.
@@ -42,7 +40,6 @@ initializeAuthentication()
   const faceBookSignInHandler = () => {
       setIsLoading(true);
       return signInWithPopup(auth, faceBookProvider)
-          
     }
   
   // getting name
