@@ -27,8 +27,8 @@ const Home = () => {
                     </Col>
                     <Col md={4}>
                         <div className="d-flex flex-column justify-content-evenly align-items-center">
-                            <img src={family3} className="img-fluid my-3 rounded" alt="" />
-                            <img src={family2} className="img-fluid my-3 rounded" alt="" />
+                            <img src={family3} className="img-fluid my-3 rounded" alt="" data-aos="flip-up" />
+                            <img src={family2} className="img-fluid my-3 rounded" alt="" data-aos="flip-down" />
                         </div>
                         
                     </Col>
@@ -40,8 +40,8 @@ const Home = () => {
                     {
                     services.slice(0,6).map((service) => 
                         
-                        <Col md={4} className="my-3" key={service.id}>
-                            <Card className="p-2 rounded shadow card-div">
+                        <Col md={4} className="my-3" key={service.id} data-aos="zoom-in-up">
+                            <Card className="p-2 rounded shadow card-div" >
                                 <img className="img-fluid rounded m-3" src={service.image} alt="" />
                                 <Card.Body>
                                 <h4>{ service.title }</h4>
@@ -60,22 +60,30 @@ const Home = () => {
                 {/* our specialists  */}
                 <Row>
                     <h2 className="text-center my-5">Our Specialists</h2>
-                    <Col md={3}>
+                    <Col md={3} data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                         <div>
                             <img className='img-fluid' src="https://images.pexels.com/photos/4173239/pexels-photo-4173239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
                     </Col>
-                    <Col md={3}>
+                    <Col md={3} data-aos="flip-right"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                         <div>
                             <img className='img-fluid' src="https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
                     </Col>
-                    <Col md={3}>
+                    <Col md={3} data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                         <div>
                             <img className='img-fluid' src="https://images.pexels.com/photos/5327921/pexels-photo-5327921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
                     </Col>
-                    <Col md={3}>
+                    <Col md={3} data-aos="flip-right"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
                         <div>
                             <img className='img-fluid' src="https://images.pexels.com/photos/8442537/pexels-photo-8442537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
